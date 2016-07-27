@@ -25,7 +25,7 @@ example: `/lunch list`
 #### `/lunch order [item]`
 
 Order something from the current run.  
-example: `/lunch order small cappuccino`
+example: `/lunch order turkey on rye`
 
 #### `/lunch here`
 
@@ -38,6 +38,6 @@ example: `/lunch here`
 Show a help message detailing the available commands.  
 example: `/lunch help`
 
-## Contributing
+## Attribution
 
 Forked from https://github.com/assafgelber/slash-coffee
