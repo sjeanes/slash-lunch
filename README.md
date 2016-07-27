@@ -1,47 +1,43 @@
-# /coffee
+# /lunch
 
-/coffee is a slash command to organize coffee runs through slack.
+/lunch is a slash command to organize lunch runs through Slack.
 
 Each run is created on a channel level, meaning that different channels can have separate runs simultaneously (if you have a global team, for example).
 
 ## Installation
 
-Visit [coffee.agelber.com](http://coffee.agelber.com) and you can follow the instructions from there.
-
-If you don't want to install this through the Slack app directory, you could deploy it on your own and add a custom integration through the Slack admin panel.
+Deploy it on your own and add a custom integration through the Slack admin panel.
 
 ## Usage
 
 There are 5 commands to know:
 
-#### `/coffee run [time]`
+#### `/lunch run [time]`
 
-Start a coffee run!  
-example: `/coffee run 15`
+Start a lunch run!  
+example: `/lunch run 15`
 
-#### `/coffee list`
+#### `/lunch list`
 
 Show the list of orders for the current run.  
-example: `/coffee list`
+example: `/lunch list`
 
-#### `/coffee order [item]`
+#### `/lunch order [item]`
 
 Order something from the current run.  
-example: `/coffee order small cappuccino`
+example: `/lunch order small cappuccino`
 
-#### `/coffee here`
+#### `/lunch here`
 
-Let everyone know that the coffee is here!
+Let everyone know that the lunch is here!
 This is needed so that others can start new runs later on.  
-example: `/coffee here`
+example: `/lunch here`
 
-#### `/coffee help`
+#### `/lunch help`
 
 Show a help message detailing the available commands.  
-example: `/coffee help`
+example: `/lunch help`
 
 ## Contributing
 
-Feel free to fork this repository, add anything you like and open a pull request!
-
-:coffee::runner:
+Forked from https://github.com/assafgelber/slash-coffee
