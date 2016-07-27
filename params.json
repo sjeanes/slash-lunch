@@ -1,5 +1,5 @@
 {
-  "name": "Slash-lunch",
+  "name": "Slash-Lunch",
   "tagline": "Slack lunch run organizer",
   "body": "# /lunch\r\n\r\n/lunch is a slash command to organize lunch runs through Slack.\r\n\r\nEach run is created on a channel level, meaning that different channels can have separate runs simultaneously (if you have a global team, for example).\r\n\r\n## Installation\r\n\r\nDeploy it on your own and add a custom integration through the Slack admin panel.\r\n\r\n## Usage\r\n\r\nThere are 5 commands to know:\r\n\r\n#### `/lunch run [time]`\r\n\r\nStart a lunch run!  \r\nexample: `/lunch run 15`\r\n\r\n#### `/lunch list`\r\n\r\nShow the list of orders for the current run.  \r\nexample: `/lunch list`\r\n\r\n#### `/lunch order [item]`\r\n\r\nOrder something from the current run.  \r\nexample: `/lunch order turkey on rye`\r\n\r\n#### `/lunch here`\r\n\r\nLet everyone know that the lunch is here!\r\nThis is needed so that others can start new runs later on.  \r\nexample: `/lunch here`\r\n\r\n#### `/lunch help`\r\n\r\nShow a help message detailing the available commands.  \r\nexample: `/lunch help`\r\n\r\n## Attribution\r\n\r\nForked from https://github.com/assafgelber/slash-coffee\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
